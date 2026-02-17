@@ -128,7 +128,7 @@ generateTypes(manifest, './flags.generated.ts');
 
 ## API Documentation
 
-For complete API documentation, see [docs/index.html](./docs/index.html) or generate it with:
+For complete API documentation, see [docs](https://dkapexhiu.github.io/flag-orchestrator/) or generate it with:
 
 ```bash
 npm run docs
@@ -147,3 +147,4 @@ npm run docs
 ## License
 
 MIT
+
