@@ -1,0 +1,64 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build / cache
+dist/
+build/
+out/
+coverage/
+.cache/
+.temp/
+tmp/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Test outputs
+junit.xml
+test-results/
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Infrastructure / runtime state
+*.pid
+*.seed
+*.pid.lock
+
+# Git
+*.orig

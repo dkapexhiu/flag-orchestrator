@@ -1,0 +1,44 @@
+{
+  "name": "@dkapexhiu/flag-orchestrator",
+  "version": "0.1.0",
+  "description": "Runtime feature flag orchestrator with code scanning and typed manifests for Node.js apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "lint": "eslint . --ext ts",
+    "docs": "typedoc",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "keywords": [
+    "feature-flags",
+    "typescript",
+    "cli",
+    "node"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.33",
+    "del-cli": "^7.0.0",
+    "ts-morph": "^21.0.0",
+    "tsup": "^8.5.1",
+    "typedoc": "^0.28.17",
+    "typescript": "^5.9.3",
+    "vitest": "^1.6.1"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
